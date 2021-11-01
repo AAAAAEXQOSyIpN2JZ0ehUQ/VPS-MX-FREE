@@ -1,0 +1,57 @@
+#!/bin/bash
+
+myid_src () {
+bot_retorno="====================\n"
+          bot_retorno+="SU ID: ${chatuser}\n"
+          bot_retorno+="====================\n"
+msj_fun
+}
+
+deleteID_reply () {
+delid=$(sed -n ${message_text[$id]}p ${CID})
+sed -i "${message_text[$id]}d" ${CID}
+bot_retorno="$LINE\n"
+          bot_retorno+="ID eliminado con exito!\n"
+          bot_retorno+="ID: ${delid}\n"
+          bot_retorno+="$LINE\n"
+msj_fun
+upfile_src
+}
+
+addID_reply () {
+      [[ $(cat ${CID}|grep "${message_text[$id]}") = "" ]] && {
+        echo "/${message_text[$id]}" >> ${CID}
+          bot_retorno="$LINE\n"
+          bot_retorno+="✅ *ID agregado * ✅\n"
+          bot_retorno+="$LINE\n"
+          bot_retorno+="$(< ${CID})\n"
+          bot_retorno+="$LINE\n"
+          bot_retorno+="New ID: ${message_text[$id]}\n"
+          bot_retorno+="$LINE"
+
+          bot_retor="$LINE\n"
+          bot_retor+="El Administrador te autoriso\n"
+          bot_retor+="para usar el comando /keygen\n"
+          bot_retor+="digita el comando /menu\n"
+          bot_retor+="para actualizar el menu de comandos\n"
+          bot_retor+="$LINE\n"
+      msj_fun
+      msj_add ${message_text[$id]}
+      upfile_src
+    } || {
+          bot_retorno="====ERROR====\n"
+          bot_retorno+="Este ID ya existe\n"
+          bot_retorno+="$LINE\n"
+      msj_fun
+    }
+}
+
+
+
+
+
+
+
+
+
+

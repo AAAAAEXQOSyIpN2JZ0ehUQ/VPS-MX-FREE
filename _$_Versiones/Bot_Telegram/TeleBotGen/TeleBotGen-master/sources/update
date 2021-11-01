@@ -1,0 +1,9 @@
+#!/bin/bash
+
+update () {
+[[ ! -e "$HOME/update.sh" ]] && wget -O $HOME/update.sh https://raw.githubusercontent.com/rudi9999/TeleBotGen/master/update.sh &> /dev/null
+chmod +x $HOME/update.sh
+screen -dmS updateBotGen $HOME/update.sh
+sleep 2
+killall BotGen.sh
+}

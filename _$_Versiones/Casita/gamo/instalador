@@ -1,0 +1,221 @@
+#!/bin/bash
+#Hola si llegaste hasta aquí me inspiras admiracion
+#, no te robes y vendas este Script
+#Es GRATIS!
+clear
+cd $HOME
+SCPdir="/etc/newadm"
+SCPinstal="$HOME/install"
+SCPidioma="${SCPdir}/idioma"
+SCPusr="${SCPdir}/ger-user"
+SCPfrm="/etc/ger-frm"
+SCPfrm3="/etc/adm-lite"
+SCPinst="/etc/ger-inst"
+reaper="aHR0cHM6Ly9naXRsYWIuY29tL01lZ2NlbnRlci9teWZpcnN0c2NyaXB0Ly0vcmF3L21hc3Rlci9nZXJhZG9y"
+gamo='base64 -d'
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+service apache2 restart > /dev/null 2>&1
+fecha=`date`;
+myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
+myint=`ifconfig | grep -B1 "inet addr:$myip" | head -n1 | awk '{print $1}'`;
+mkdir -p /etc/B-ADMuser &>/dev/null
+rm -rf /etc/localtime &>/dev/null
+ln -s /usr/share/zoneinfo/America/Mexico_City /etc/localtime &>/dev/null
+[[ $(dpkg --get-selections|grep -w "gawk"|head -1) ]] || apt-get install gawk -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "mlocate"|head -1) ]] || apt-get install mlocate -y &>/dev/null
+rm $(pwd)/$0 &> /dev/null
+##barrafun
+fun_bar () {
+comando[0]="$1"
+comando[1]="$2"
+(
+[[ -e $HOME/fim ]] && rm $HOME/fim
+${comando[0]} -y > /dev/null 2>&1
+${comando[1]} -y > /dev/null 2>&1
+touch $HOME/fim
+) > /dev/null 2>&1 &
+tput civis
+echo -ne " \033[1;37mCargando \033[1;37m- \033[1;33m["
+while true; do
+for((i=0; i<18; i++)); do
+echo -ne "\033[1;31m#"
+sleep 0.1s
+done
+[[ -e $HOME/fim ]] && rm $HOME/fim && break
+echo -e "\033[1;33m]"
+sleep 1s
+tput cuu1
+tput dl1
+echo -ne " \033[1;37mCargando \033[1;37m- \033[1;33m["
+done
+echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
+tput cnorm
+}
+if [ $(id -u) != 0 ]
+then
+clear
+echo "Ejecute el script como root"
+exit
+fi
+clear
+msg () {
+BRAN='\033[1;37m' && VERMELHO='\e[1;35m' && VERDE='\e[32m' && AMARELO='\e[33m'
+AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCOR='\e[0m'
+ case $1 in
+  -ne)cor="${VERMELHO}${NEGRITO}" && echo -ne "${cor}${2}${SEMCOR}";;
+  -ama)cor="${AMARELO}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}";;
+  -verm)cor="${AMARELO}${NEGRITO}[!] ${VERMELHO}" && echo -e "${cor}${2}${SEMCOR}";;
+  -azu)cor="${MAG}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}";;
+  -verd)cor="${VERDE}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}";;
+  -bra)cor="${VERMELHO}" && echo -ne "${cor}${2}${SEMCOR}";;
+  "-bar2"|"-bar")cor="${VERMELHO}\033[1;31m════════════════════════════════════════════════════" && echo -e "${SEMCOR}${cor}${SEMCOR}";;
+ esac
+}
+clear
+fun_ip () {
+MIP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
+MIP2=$(wget -qO- ipv4.icanhazip.com)
+[[ "$MIP" != "$MIP2" ]] && IP="$MIP2" || IP="$MIP"
+}  
+inst_components () {
+[[ $(dpkg --get-selections|grep -w "nano"|head -1) ]] || apt-get install nano -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "bc"|head -1) ]] || apt-get install bc -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "screen"|head -1) ]] || apt-get install screen -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "python"|head -1) ]] || apt-get install python -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "python3"|head -1) ]] || apt-get install python3 -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "curl"|head -1) ]] || apt-get install curl -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "figlet"|head -1) ]] || apt-get install figlet -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "cowsay"|head -1) ]] || apt-get install cowsay -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "screenfetch"|head -1) ]] || apt-get install screenfetch -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "ufw"|head -1) ]] || apt-get install ufw -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "unzip"|head -1) ]] || apt-get install unzip -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "zip"|head -1) ]] || apt-get install zip -y &>/dev/null
+[[ $(dpkg --get-selections|grep -w "apache2"|head -1) ]] || {
+ apt-get install apache2 -y &>/dev/null
+ sed -i "s;Listen 80;Listen 81;g" /etc/apache2/ports.conf
+ service apache2 restart > /dev/null 2>&1 &
+ }
+}
+sleep 3
+clear
+fun_bar 'inst_components'
+funcao_idioma () {
+pv="$(echo es)"
+[[ ${#id} -gt 2 ]] && id="es" || id="$pv"
+byinst="true"
+}
+install_fim () {
+clear
+[[ $(find /etc/newadm/ger-user -name nombre.log|grep -w "nombre.log"|head -1) ]] || wget -O /etc/newadm/ger-user/nombre.log https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/nombre.log &>/dev/null
+[[ $(find /etc/newadm/ger-user -name IDT.log|grep -w "IDT.log"|head -1) ]] || wget -O /etc/newadm/ger-user/IDT.log https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/IDT.log &>/dev/null
+[[ $(find /etc/newadm/ger-user -name tiemlim.log|grep -w "tiemlim.log"|head -1) ]] || wget -O /etc/newadm/ger-user/tiemlim.log https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/tiemlim.log &>/dev/null
+
+wget -O /bin/rebootnb https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/rebootnb &> /dev/null
+chmod +x /bin/rebootnb 
+wget -O /bin/resetsshdrop https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/resetsshdrop &> /dev/null
+chmod +x /bin/resetsshdrop
+wget -o /dev/null -O- https://raw.githubusercontent.com/davidwhill21/bn/master/Vercion > /etc/versin_panel
+wget -o /dev/null -O- https://www.dropbox.com/s/3r5gkrutv1kk0mw/banner > /etc/banner
+wget -o /dev/null -O- https://raw.githubusercontent.com/Anonymous-Zpt/T-banner4/master/.Banners/craneo > /etc/logobash
+
+sleep 3
+clear
+msg -bar
+echo '#!/bin/sh -e' > /etc/rc.local
+sudo chmod +x /etc/rc.local
+echo "sudo rebootnb" >> /etc/rc.local
+echo "sudo resetsshdrop" >> /etc/rc.local
+echo "sleep 2s" >> /etc/rc.local
+echo "exit 0" >> /etc/rc.local
+/bin/cp /etc/skel/.bashrc ~/
+echo 'clear' >> .bashrc
+echo 'DATE=$(date +"%d-%m-%y")' >> .bashrc
+echo 'TIME=$(date +"%T")' >> .bashrc
+echo 'bannerlogo=$(cat /etc/logobash)' >> .bashrc
+echo 'echo -e "\033[1;32m"' >> .bashrc
+echo 'echo "" '>> .bashrc
+echo 'echo "$bannerlogo" '>> .bashrc
+echo 'echo -e "\033[1;30m  Nombre del Servidor : \033[1;32m$HOSTNAME"' >> .bashrc
+echo 'echo -e "\033[1;30m  Fecha del Servidor : \033[1;32m$DATE"' >> .bashrc
+echo 'echo -e "\033[1;30m  Hora del Servidor : \033[1;32m$TIME"' >> .bashrc
+echo 'echo -e ""' >> .bashrc
+echo 'echo -e "\033[1;30m  Bienvenido!"' >> .bashrc
+echo 'echo -e "  Teclee\033[1;32m  menu /adm\033[1;30m para entrar al panel.\033[32m"' >> .bashrc
+echo 'echo -e ""' >> .bashrc
+echo -e "        COMANDO PRINCIPAL PARA ENTRAR AL PANEL "
+echo -e "\033[1;33m                      sudo menu                        \033[0;37m" && msg -bar2
+sleep 5
+}
+verificar_arq () {
+[[ ! -d ${SCPdir} ]] && mkdir ${SCPdir}
+[[ ! -d ${SCPusr} ]] && mkdir ${SCPusr}
+[[ ! -d ${SCPfrm} ]] && mkdir ${SCPfrm}
+[[ ! -d ${SCPinst} ]] && mkdir ${SCPinst}
+case $1 in
+"menu"|"message.txt")ARQ="${SCPdir}/";; #Menu
+"usercodes")ARQ="${SCPusr}/";; #Panel SSRR
+"C-SSR.sh")ARQ="${SCPinst}/";; #Instalacao
+"openssh.sh")ARQ="${SCPinst}/";; #Instalacao
+"squid.sh")ARQ="${SCPinst}/";; #Instalacao
+"dropbear.sh")ARQ="${SCPinst}/";; #Instalacao
+"openvpn.sh")ARQ="${SCPinst}/";; #Instalacao
+"ssl.sh")ARQ="${SCPinst}/";; #Instalacao
+"shadowsocks.sh")ARQ="${SCPinst}/";; #Instalacao
+"Shadowsocks-libev.sh")ARQ="${SCPinst}/";; #Instalacao
+"Shadowsocks-R.sh")ARQ="${SCPinst}/";; #Instalacao 
+"v2ray.sh")ARQ="${SCPinst}/";; #Instalacao
+"budp.sh")ARQ="${SCPinst}/";; #Instalacao
+"sockspy.sh"|"PDirect.py"|"PPub.py"|"PPriv.py"|"POpen.py"|"PGet.py")ARQ="${SCPinst}/";; #Instalacao
+*)ARQ="${SCPfrm}/";; #Ferramentas
+esac
+mv -f ${SCPinstal}/$1 ${ARQ}/$1
+chmod +x ${ARQ}/$1
+sed -i -e 's/\r$//' ${ARQ}/$1
+}
+fun_ip
+wget -O /usr/bin/trans https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/trans &> /dev/null
+wget -O /bin/Desbloqueo.sh https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/Desbloqueo.sh &> /dev/null
+clear
+[[ $1 = "" ]] && funcao_idioma || {
+[[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
+ }
+Key="SCRIPT FREE SIN MINERGATE"
+REQUEST=$(echo $reaper|$gamo)
+echo "$IP" > /usr/bin/vendor_code
+cd $HOME
+wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 
+clear || {
+   invalid_key
+   exit
+   }
+sleep 1s
+updatedb
+if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "KEY INVALIDA!") ]]; then
+   msg -verd "\033[1;37m$(source trans -b es:${id} " INSTALANDO ADM-MX by @SixReaper"|sed -e 's/[^a-z -]//ig')"
+   [[ ! -d ${SCPinstal} ]] && mkdir ${SCPinstal}
+   pontos="."
+   stopping="$(source trans -b es:${id} "Recibiendo Recursos"|sed -e 's/[^a-z -]//ig')"
+   for arqx in $(cat $HOME/lista-arq); do
+   msg -verm "\033[1;37m${stopping}\033[1;33m${pontos}"
+   wget --no-check-certificate -O ${SCPinstal}/${arqx} ${REQUEST}/${arqx} > /dev/null 2>&1 && verificar_arq "${arqx}" || error_fun
+   tput cuu1 && tput dl1
+   pontos+="."
+   done
+   sleep 1s
+   msg -bar2
+   listaarqs="$(locate "lista-arq"|head -1)" && [[ -e ${listaarqs} ]] && rm $listaarqs   
+   cat /etc/bash.bashrc|grep -v '[[ $UID != 0 ]] && TMOUT=15 && export TMOUT' > /etc/bash.bashrc.2
+   echo -e '[[ $UID != 0 ]] && TMOUT=15 && export TMOUT' >> /etc/bash.bashrc.2
+   mv -f /etc/bash.bashrc.2 /etc/bash.bashrc
+   echo "${SCPdir}/menu" > /usr/bin/menu && chmod +x /usr/bin/menu
+   echo "${SCPdir}/menu" > /usr/bin/adm && chmod +x /usr/bin/adm
+   echo "$Key" > ${SCPdir}/key.txt
+   [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal}   
+   [[ ${#id} -gt 2 ]] && echo "es" > ${SCPidioma} || echo "${id}" > ${SCPidioma}
+  msg -bar2
+[[ ${byinst} = "true" ]] && install_fim
+else
+invalid_key
+fi
+rm -rf instala.sh

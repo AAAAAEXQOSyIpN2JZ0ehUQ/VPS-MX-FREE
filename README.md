@@ -1,8 +1,39 @@
 ﻿# VPS-MX By Kalix1 ( MOD NEW-ULTIMATE )
 ```
-* UPDATE 12/03/2021 - Proyecto Finalizado
+* UPDATE 17/07/2021 - Proyecto Descontinuado
+* VPS-MX (Final Version 8.4e)
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/blob/master/NEW-ULTIMATE-VPS-MX-8.0/Imagenes/NEW-ULTIMATE-VPS-MX-8.4.png)
+
+```
+# SCRIPT VPS•MX ® Script Manager de VPS
+
+ESTE ES UN SCRIPT PARA LA ADMINISTRACION DE CUENTAS DE TIPO:
+
+-SSH
+-SSL
+-DROPBEAR
+-OPENVPN
+-SHADOWSOCK, SHADOWSOCK-liv, SHADOWSOCKR (PERSONAL)
+-V2RAY (PERSONAL)
+-PANEL TROJAN
+-IODINE
+-BRAINFUCK PSIPHON PRO GO
+-PROXYS (PYTHON-PUB,PYTHON-SEG,PYTHON-DIR,TCP OVER,SQUID)
+
+MONITOREO DE:
+
+-USUARIOS SSH/DROPBEAR/SSL/OPENVPN
+-TIEMPO
+-EXPIRACION
+-MONITOR DE PROTOCOLOS
+
+BOT MANAGER:
+
+-CONTROLA EL USO DE TUS CUENTAS SSH DESDE UN BOT DE TELEGRAM
+ (AGERAGR,ELIMINAR,RENOVAR,MIRAR CONECTADOS,SERVICOS DE TU VPS, IFO DE CUENTAS,ETC.)
+-RECIBE NOTIFICACIONES CON BOT ESPECIAL
+```
 
 **Manager Script**
 
@@ -45,13 +76,13 @@ BOT MANAGER:
 -RECIBE NOTIFICACIONES CON BOT ESPECIAL
 ```
 
-## :book: Installation Oficial VPS-MX Versao 8.4e
+## :book: Installation  ( Team Casita VPS-MX Versao 8.4e )
 
 apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
 -------------------------------------------------------------------------------
 
-## :book: Installation Oficial VPS-MX Versao 8.4
+## :book: Installation ( Team Casita VPS-MX Versao 8.4 )
 
 apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
@@ -77,7 +108,5 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AA
 4. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
 
 ```
-☆ https://t.me/admmanagerfree ☆
+☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
-
-**By: [  ⃘⃤꙰✰ ]**

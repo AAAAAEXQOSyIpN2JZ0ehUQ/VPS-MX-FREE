@@ -1,0 +1,8 @@
+#!/bin/bash
+
+myid_src () {
+bot_retorno="====================\n"
+          bot_retorno+="SU ID: ${chatuser}\n"
+          bot_retorno+="====================\n"
+msj_fun
+}
