@@ -45,13 +45,13 @@ if [ ! -d "$INSTALL_DIR" ]; then
 	sleep 2
 	mkdir -p "$INSTALL_DIR_PARENT"
 	cd "$INSTALL_DIR_PARENT"
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/zzupdate-master/zzupdate.default-si.conf -O /usr/local/vpsmxup/vpsmxup.default.conf  &> /dev/null
+    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/zzupdate-master/zzupdate.default-si.conf -O /usr/local/vpsmxup/vpsmxup.default.conf  &> /dev/null
 	chmod +x /usr/local/vpsmxup/vpsmxup.default.conf 
 	rm -rf /usr/local/vpsmxup/vpsmxup.sh
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/zzupdate-master/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf &> /dev/null
+    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/zzupdate-master/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf &> /dev/null
 	chmod +x /usr/local/vpsmxup/vpsmxup.default.conf
 	rm -rf /root/VPS-MX
-    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/VPS-MX -O /root/VPS-MX &> /dev/null
+    wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/VPS-MX -O /root/VPS-MX &> /dev/null
 	chmod +x /root/VPS-MX
 	echo -e  "\033[1;97m              Copiando Instalador Interno "
 	
@@ -63,12 +63,12 @@ else
 fi
 
 ubu16_fun () {
-    wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/Repositorios/16.04/sources.list &> /dev/null
+    wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/Repositorios/16.04/sources.list &> /dev/null
 	echo -e "\033[1;97m SELECCIONO UBU 16"
 }
 
 ubu18_fun () {
-    wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/Repositorios/18.04/sources.list &> /dev/null
+    wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/Repositorios/18.04/sources.list &> /dev/null
 	echo -e "\033[1;97m OK UBU 18"
 }	
 

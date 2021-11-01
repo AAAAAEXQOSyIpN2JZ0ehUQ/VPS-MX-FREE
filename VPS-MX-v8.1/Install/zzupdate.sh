@@ -201,7 +201,7 @@ echo -e "\033[93m                PARA FINALIZAR SOLO"
 echo -e "\033[93m                 DIGITE LA PALABRA\033[97m"
 echo ""
 echo -e "\033[1;41m                     sudo VPS-MX                      \033[0;37m"
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.1-Casita/Install/VPS-MX.sh -O /usr/bin/VPS-MX &> /dev/null
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.1/Install/VPS-MX.sh -O /usr/bin/VPS-MX &> /dev/null
 chmod +x /usr/bin/VPS-MX
 if [ "$REBOOT" = "1" ]; then
 	printTitle "        SU VPS SE REINICIARA EN 20 SEGUNDOS           "

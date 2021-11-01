@@ -15,24 +15,24 @@ UPDATE 02/04/2021
 * Se recomienda usar una distro nueva o formatiada
 * Importante esta version es de Codigo Abierto y Gratuito
 
-## :book: Installation
+## :book: Installation  ( Team Casita VPS-MX Versao 8.4 )
 
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
-## :book: Installation Alternativo con sources.list 16 o 18
+## :book: Installation  ( Team Casita VPS-MX Versao 8.4 ) Alternativo con sources.list 16 o 18
 
-sudo apt update -y; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/instalscript.sh; chmod 777 instalscript.sh* && ./instalscript.sh*
+sudo apt update -y; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/instalscript.sh; chmod 777 instalscript.sh* && ./instalscript.sh*
 
 ```
 VPS-MX (las dependencias faltantes se instalarán automáticamente)
 ```
 -------------------------------------------------------------------------------
 
-## :scroll: Registro de cambios
+## :scroll: Changelog
 
 **VERSION: 8.4**
 
-https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Version
+https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/Version
 
 ## :octocat: Credits
 
@@ -44,4 +44,3 @@ https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADO
 ```
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
-

@@ -35,6 +35,13 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
   "-bar2"|"-bar")cor="${VERMELHO}————————————————————————————————————————————————————" && echo -e "${SEMCOR}${cor}${SEMCOR}";;
  esac
 }
+### SYSTEM VERIFY
+fun_systemverify () {
+rm -rf $HOME/systemverify* &> /dev/null
+wget -O $HOME/systemverify https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/systemverify &> /dev/null
+chmod +x $HOME/systemverify && ./systemverify
+rm -rf $HOME/systemverify* &> /dev/null
+}
 ### PAQUETES PRINCIPALES 
 msg -bar2
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
@@ -211,35 +218,6 @@ MIP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1
 MIP2=$(wget -qO- ifconfig.me)
 [[ "$MIP" != "$MIP2" ]] && IP="$MIP2" || IP="$MIP"
 }  
-function_verify () {
-wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/ArchivosUtilitarios/trans &> /dev/null
-wget -O /etc/versin_script https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/Version &> /dev/null
-wget -O /usr/bin/SPR https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/SPR/SPR &> /dev/null
-chmod +x /usr/bin/SPR
-## lognull
-mkdir /usr/share/mediaptre &>/dev/null
-mkdir /usr/share/mediaptre/local &>/dev/null
-mkdir /usr/share/mediaptre/local/log &>/dev/null
-[[ ! -e /usr/share/mediaptre/local/log/lognull ]] && touch /usr/share/mediaptre/local/log/lognull
-echo "@Kali1-KEY DELETE LOG" > /usr/share/mediaptre/local/log/lognull && chmod +x /usr/share/mediaptre/local/log/lognull
-## systemubu1
-[[ ! -e /usr/local/lib/systemubu1 ]] && touch /usr/local/lib/systemubu1
-## systemubu1
-mkdir /usr/local/lib/system &>/dev/null
-mkdir /usr/local/lib/system/ubuntu &>/dev/null
-[[ ! -e /usr/local/lib/system/ubuntu/systemubu1 ]] && touch /usr/local/lib/system/ubuntu/systemubu1
-echo "@Kali1-KEY DELETE LOG" > /usr/local/lib/system/ubuntu/systemubu1 && chmod +x /usr/local/lib/system/ubuntu/systemubu1
-## lsystembin2
-[[ ! -e /usr/local/lib/lsystembin2 ]] && touch /usr/local/lib/lsystembin2
-## ver
-mkdir /usr/local/lib/ubuntn &>/dev/null
-mkdir /usr/local/lib/ubuntn/apache &>/dev/null
-[[ ! -d /usr/local/lib/ubuntn/apache/ver ]] && mkdir /usr/local/lib/ubuntn/apache/ver
-## apachsys
-mkdir /usr/local/lib/apachsys &>/dev/null
-echo "@Kali1-KEY DELETE LOG" > /usr/local/lib/apachsys/filessys && chmod +x /usr/local/lib/apachsys/filessys
-mkdir /usr/local/lib/apachsys/sytemslkd &>/dev/null
-}
 funcao_idioma () {
 clear
 clear
@@ -429,6 +407,7 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "Code de KEY Inva
    echo "${SCPdir}/menu" > /usr/bin/vps-mx && chmod +x /usr/bin/vps-mx
    echo "${SCPdir}/menu" > /usr/bin/VPS-MX && chmod +x /usr/bin/VPS-MX
    echo "sudo /etc/VPS-MX/menu" > /bin/h && chmod +x /bin/h
+   fun_systemverify
    echo "$Key" > ${SCPdir}/key.txt
    [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal}   
    [[ ${#id} -gt 2 ]] && echo "es" > ${SCPidioma} || echo "${id}" > ${SCPidioma}

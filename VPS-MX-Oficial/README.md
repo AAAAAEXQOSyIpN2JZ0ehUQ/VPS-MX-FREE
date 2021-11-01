@@ -17,18 +17,18 @@ UPDATE 02/04/2021
 
 ## :book: Installation
 
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
 ```
 VPS-MX (las dependencias faltantes se instalarán automáticamente)
 ```
 -------------------------------------------------------------------------------
 
-## :scroll: Registro de cambios
+## :scroll: Changelog
 
-**VERSION: 8.4.?**
+**VERSION: 8.4?**
 
-https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-Oficial/Version
+https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/Install/Version
 
 ## :octocat: Credits
 
@@ -40,4 +40,3 @@ https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADO
 ```
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
-

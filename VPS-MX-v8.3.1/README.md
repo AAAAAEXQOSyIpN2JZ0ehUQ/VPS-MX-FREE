@@ -15,12 +15,18 @@ UPDATE 03/03/2021
 
 ## :book: Installation ( Team Illuminati VPS-MX Versao 8.3.1 )
 
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.3.1/instalscript.sh; chmod 777 instalscript.sh* && ./instalscript.sh*
+apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.3.1/instalscript.sh; chmod 777 instalscript.sh* && ./instalscript.sh*
 
 ```
 VPS-MX (las dependencias faltantes se instalarán automáticamente)
 ```
 -------------------------------------------------------------------------------
+
+## :scroll: Changelog
+
+**VERSION: 8.1**
+
+https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.3.1/Install/Vercion
 
 ## :octocat: Credits
 
@@ -32,4 +38,3 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 ```
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
-
