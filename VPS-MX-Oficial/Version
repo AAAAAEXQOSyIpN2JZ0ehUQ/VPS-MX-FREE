@@ -4,24 +4,21 @@
 #
 #         Modificaciones Al Codigo: @kalix1 (Mod Version VPS-MX)
 #
-#         Modificaciones Al Codigo: Illuminati Team
+#         Modificaciones Al Codigo: Illuminati Dev Team
 #
 # **By: [  ⃘⃤꙰✰ ]**
 # ===================
-# https://t.me/admmanagerfree
+# https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ
 #
 ####################################################
 
-VERSION: 8.4.?
+VERSION: 8.4?
 
 # SCRIPT VPS•MX ® Script Manager de VPS
 
 ESTE ES UN SCRIPT PARA LA ADMINISTRACION DE CUENTAS DE TIPO:
 
--SSH
--SSL
--DROPBEAR
--OPENVPN
+-SSH, SSL,DROPBEAR, OPENVPN
 -SHADOWSOCK, SHADOWSOCK-liv, SHADOWSOCKR (PERSONAL)
 -V2RAY (PERSONAL)
 -PANEL TROJAN
