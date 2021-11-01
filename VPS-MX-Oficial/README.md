@@ -2,7 +2,6 @@
 ```
 UPDATE 02/04/2021
 ```
-
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/blob/master/NEW-ULTIMATE-VPS-MX-8.0/Imagenes/NEW-ULTIMATE-VPS-MX-8.4e.png)
 
 **Manager Script**
@@ -31,15 +30,14 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 
 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-Oficial/Version
 
-## :octocat: Contribute
+## :octocat: Credits
 
-1. @Kalix1 - Developer of VPS-MX (https://github.com/VPS-MX)
-2. @Rufu99 - Contributor (https://github.com/rudi9999)
-3. Team Casita-MX - Contributor (https://github.com/lacasitamx)
-4. Team Illuminati - Contributor (https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
+1. [@Kalix1 - Developer of VPS-MX](https://github.com/VPS-MX)
+2. [@Rufu99 - Contributor](https://github.com/rudi9999)
+3. [Casita Dev Team - Contributor](https://github.com/lacasitamx)
+4. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
 
 ```
-☆ https://t.me/admmanagerfree ☆
+☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
 
-**By: [  ⃘⃤꙰✰ ]**
