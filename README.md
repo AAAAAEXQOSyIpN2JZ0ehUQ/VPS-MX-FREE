@@ -45,7 +45,7 @@ BOT MANAGER:
 
 ## :book: Installation  ( Team Casita VPS-MX Versao 8.4? )
 
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
 -------------------------------------------------------------------------------
 
