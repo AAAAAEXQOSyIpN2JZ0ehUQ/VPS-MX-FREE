@@ -1,8 +1,8 @@
 ﻿# VPS-MX By Kalix1 ( MOD NEW-ULTIMATE )
 ```
-UPDATE 02/04/2021
+UPDATE 02/04/2021 - UPDATE PROJECTS
 ```
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/blob/master/NEW-ULTIMATE-VPS-MX-8.0/Imagenes/NEW-ULTIMATE-VPS-MX-8.4e.png)
+![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/NEW-ULTIMATE-VPS-MX-8.4e.png)
 
 **Manager Script**
 
@@ -17,7 +17,7 @@ UPDATE 02/04/2021
 
 ## :book: Installation
 
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
 ```
 VPS-MX (las dependencias faltantes se instalarán automáticamente)
@@ -28,7 +28,7 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 
 **VERSION: 8.4?**
 
-https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/Install/Version
+https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Version
 
 ## :octocat: Credits
 
