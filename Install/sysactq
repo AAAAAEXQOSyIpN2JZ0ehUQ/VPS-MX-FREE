@@ -226,7 +226,7 @@ echo 'echo -e "\033[92m\t        INICIANDO INSTALADOR FINAL"'>> .bashrc
 echo 'echo "" '>> .bashrc                                               
 echo 'sleep 5s'>> .bashrc
 ## echo 'wget https://www.dropbox.com/s/uswbjp0r7rvcx83/01B -O /usr/bin/VPS-MX &>/dev/null'>> .bashrc
-echo 'wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-Oficial/Install/VPS-MX.sh -O /usr/bin/VPS-MX &>/dev/null'>> .bashrc
+echo 'wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/VPS-MX.sh -O /usr/bin/VPS-MX &>/dev/null'>> .bashrc
 echo 'chmod +x /usr/bin/VPS-MX'>> .bashrc
 echo 'VPS-MX'>> .bashrc
 
