@@ -1,71 +1,34 @@
 ﻿# VPS-MX By Kalix1 ( MOD NEW-ULTIMATE )
 ```
-* UPDATE 17/07/2021 - Proyecto Descontinuado
-* VPS-MX (Final Version 8.4?)
+UPDATE 02/04/2021
 ```
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/blob/master/NEW-ULTIMATE-VPS-MX-8.0/Imagenes/NEW-ULTIMATE-VPS-MX-8.4.png)
-
-```
-# SCRIPT VPS•MX ® Script Manager de VPS
-
-ESTE ES UN SCRIPT PARA LA ADMINISTRACION DE CUENTAS DE TIPO:
-
--SSH, SSL, DROPBEAR, OPENVPN
--SHADOWSOCK, SHADOWSOCK-liv, SHADOWSOCKR (PERSONAL)
--V2RAY (PERSONAL)
--PANEL TROJAN
--IODINE
--BRAINFUCK PSIPHON PRO GO
--PROXYS (PYTHON-PUB,PYTHON-SEG,PYTHON-DIR,TCP OVER,SQUID)
-
-MONITOREO DE:
-
--USUARIOS SSH/DROPBEAR/SSL/OPENVPN
--TIEMPO
--EXPIRACION
--MONITOR DE PROTOCOLOS
-
-BOT MANAGER:
-
--CONTROLA EL USO DE TUS CUENTAS SSH DESDE UN BOT DE TELEGRAM
- (AGERAGR,ELIMINAR,RENOVAR,MIRAR CONECTADOS,SERVICOS DE TU VPS, IFO DE CUENTAS,ETC.)
--RECIBE NOTIFICACIONES CON BOT ESPECIAL
-```
+![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/blob/master/NEW-ULTIMATE-VPS-MX-8.0/Imagenes/NEW-ULTIMATE-VPS-MX-8.4e.png)
 
 **Manager Script**
 
 ## :heavy_exclamation_mark: Requerimientos
 
-* Un sistema operativo basado en Linux (Ubuntu) 
+* Un sistema operativo basado en Linux (Ubuntu o Debian) 
 * Ubuntu 16.04 Server x86_64 / 18.04 Server x86_64
 * Version 8.4 Preferente Ubuntu 20.04 Server x86_64
 * Recomendamos Ubuntu 16.04 Server x86_64 / 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formatiada
-* Importante estas version es de Codigo Abierto y Gratuito
+* Importante esta version es de Casita Dev Team y Gratuito
 
-## :book: Installation  ( Team Casita VPS-MX Versao 8.4? )
+## :book: Installation
 
 apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
 
+```
+VPS-MX (las dependencias faltantes se instalarán automáticamente)
+```
 -------------------------------------------------------------------------------
 
-## :book: Installation ( Team Casita VPS-MX Versao 8.4 )
+## :scroll: Changelog
 
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+**VERSION: 8.4?**
 
--------------------------------------------------------------------------------
-
-## :book: Installation ( Team Illuminati VPS-MX Versao 8.3.1 )
-
-apt update; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.3.1/instalscript.sh; chmod 777 instalscript.sh* && ./instalscript.sh*
-
--------------------------------------------------------------------------------
-
-## :book: Installation ( Team Casita VPS-MX Versao 8.1 )
-
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.1/instalscript.sh; chmod 777 instalscript.sh* && ./instalscript.sh*
-
--------------------------------------------------------------------------------
+https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-Oficial/Install/Version
 
 ## :octocat: Credits
 
