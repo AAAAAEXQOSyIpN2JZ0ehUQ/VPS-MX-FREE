@@ -15,6 +15,7 @@
 * Recomendamos Ubuntu 16.04 Server x86_64 / 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formatiada
 * Importante esta version es de Casita Dev Team y Gratuito
+* Importante su uso es totalmente gratuito
 
 ## :book: Installation
 
