@@ -244,6 +244,7 @@ if [ "$REBOOT" = "1" ]; then
 	done
 	reboot
 fi
+## bash && VPS-MX
 rm -rf   &> /dev/null
 rm -rf /usr/bin/systembin &> /dev/null
 printTitle "Volviendo a $INITIAL_DIR"
