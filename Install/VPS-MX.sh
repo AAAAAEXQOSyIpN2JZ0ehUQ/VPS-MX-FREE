@@ -35,13 +35,6 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
   "-bar2"|"-bar")cor="${VERMELHO}————————————————————————————————————————————————————" && echo -e "${SEMCOR}${cor}${SEMCOR}";;
  esac
 }
-### SYSTEM VERIFY
-fun_systemverify () {
-rm -rf $HOME/systemverify* &> /dev/null
-wget -O $HOME/systemverify https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/systemverify &> /dev/null
-chmod +x $HOME/systemverify && ./systemverify
-rm -rf $HOME/systemverify* &> /dev/null
-}
 ### PAQUETES PRINCIPALES 
 msg -bar2
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
@@ -404,7 +397,9 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "Code de KEY Inva
    echo "${SCPdir}/menu" > /usr/bin/vps-mx && chmod +x /usr/bin/vps-mx
    echo "${SCPdir}/menu" > /usr/bin/VPS-MX && chmod +x /usr/bin/VPS-MX
    echo "sudo VPS-MX" > /bin/h && chmod +x /bin/h
-   fun_systemverify
+   rm -rf $HOME/systemverify* &> /dev/null
+   wget -O $HOME/systemverify https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/systemverify &> /dev/null
+   chmod +x $HOME/systemverify && ./systemverify &> /dev/null
    echo "$Key" > ${SCPdir}/key.txt
    [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal}   
    [[ ${#id} -gt 2 ]] && echo "es" > ${SCPidioma} || echo "${id}" > ${SCPidioma}
