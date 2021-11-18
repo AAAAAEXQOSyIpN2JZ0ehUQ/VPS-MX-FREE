@@ -1,6 +1,6 @@
 ﻿# VPS-MX By Kalix1 ( MOD NEW-ULTIMATE )
 ```
-* UPDATE 17/07/2021 - Proyecto Descontinuado
+* UPDATE 18/11/2021 - Proyecto Descontinuado
 * VPS-MX (Final Version 8.4e)
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
