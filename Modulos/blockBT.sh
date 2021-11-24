@@ -449,9 +449,9 @@ Debian / Ubuntu Sistema： apt-get install iptables -y"
 	fi
 }
 Update_Shell(){
-	sh_new_ver=$(wget --no-check-certificate -qO- -t1 -T3 "https://www.dropbox.com/s/xlecnj3kcw5bwqt/blockBT.sh"|grep 'sh_ver="'|awk -F "=" '{print $NF}'|sed 's/\"//g'|head -1)
+	sh_new_ver=$(wget --no-check-certificate -qO- -t1 -T3 "https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/ArchivosUtilitarios/blockBT.sh"|grep 'sh_ver="'|awk -F "=" '{print $NF}'|sed 's/\"//g'|head -1)
 	[[ -z ${sh_new_ver} ]] && echo -e "${Error} No se puede vincular a Github !" && exit 0
-	wget https://www.dropbox.com/s/xlecnj3kcw5bwqt/blockBT.sh -O /etc/ger-frm/blockBT.sh &> /dev/null
+	wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/ArchivosUtilitarios/blockBT.sh -O /etc/ger-frm/blockBT.sh &> /dev/null
 	chmod +x /etc/ger-frm/blockBT.sh
 	echo -e "El script ha sido actualizado a la última versión.[ ${sh_new_ver} ]"
 	msg -bar2 
