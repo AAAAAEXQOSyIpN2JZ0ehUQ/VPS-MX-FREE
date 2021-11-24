@@ -213,6 +213,7 @@ wget https://www.dropbox.com/s/49744s47np5826q/pytransform.tar >/dev/null 2>&1
 tar -xf pytransform.tar > /dev/null 2>&1 
 cd
 ## INSTALL_DIR_PARENT
+rm -rf /usr/bin/VPS-MX > /dev/null 2>&1
 /bin/cp /etc/skel/.bashrc ~/
 echo 'clear' >> .bashrc
 echo 'echo ""' >> .bashrc
