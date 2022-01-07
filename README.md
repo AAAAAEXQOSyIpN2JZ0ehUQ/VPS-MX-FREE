@@ -1,6 +1,7 @@
 ﻿# VPS-MX By Kalix1 ( MOD NEW-ULTIMATE )
 ```
-* UPDATE 24/11/2021
+* UPDATE 24/11/2021 - Update Proyecto
+* VPS-MX Manager (Final Version VPS-MX Manager)
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
 
@@ -13,8 +14,7 @@
 * Version 8.4 Preferente Ubuntu 20.04 Server x86_64
 * Recomendamos Ubuntu 16.04 Server x86_64 / 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formatiada
-* Importante esta version es de Casita Dev Team
-* Importante su uso es totalmente gratuito 
+* Importante esta version es de Casita Dev Team su uso es totalmente gratuito 
 * Source Code [Donwload](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/VPS-MX-FREE_v8.4e.zip)
 
 ## :book: Installation
@@ -34,10 +34,11 @@ https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Versio
 
 ## :octocat: Credits
 
-1. [@Kalix1 - Developer of VPS-MX](https://github.com/VPS-MX)
-2. [@Rufu99 - Contributor](https://github.com/rudi9999)
-3. [Casita Dev Team - Contributor](https://github.com/lacasitamx)
-4. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
+1. [@E8th4ver - Developer of Adm-Manager](https://t.me/E8th4ver)
+2. [@Kalix1 - Developer of VPS-MX](https://github.com/VPS-MX)
+3. [@Rufu99 - Contributor](https://github.com/rudi9999)
+4. [Casita Dev Team - Contributor](https://github.com/lacasitamx)
+5. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
 
 ```
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
