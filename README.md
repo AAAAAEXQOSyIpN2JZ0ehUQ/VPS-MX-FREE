@@ -1,6 +1,6 @@
 ﻿# VPS-MX By Kalix1 ( MOD NEW-ULTIMATE )
 ```
-* UPDATE 24/11/2021 - Update Proyecto
+* UPDATE 24/11/2021 - Proyecto Finalizado
 * VPS-MX Manager (Final Version VPS-MX Manager)
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
