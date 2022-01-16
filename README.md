@@ -15,7 +15,6 @@
 * Recomendamos Ubuntu 16.04 Server x86_64 / 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formatiada
 * Importante esta version es de Casita Dev Team su uso es totalmente gratuito 
-* Source Code [Donwload](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/VPS-MX-FREE_v8.4e.zip)
 
 ## :book: Installation
 
