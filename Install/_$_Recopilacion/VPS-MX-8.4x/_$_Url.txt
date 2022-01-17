@@ -1,0 +1,24 @@
+
+##Instalador:
+
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/Oficial/V8_4/VPS-MX.sh
+
+##Repositorio:
+
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/zzupdate/zzupdate.default.conf
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SR/root.sh
+wget https://raw.githubusercontent.com/lacasitamx/rex/master/BOT/control-Bot
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Vercion
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Vercionwget 
+wget https://github.com/lacasitamx/VPSMX/raw/master/ArchivosUtilitarios/nombre.log
+wget https://github.com/lacasitamx/VPSMX/raw/master/ArchivosUtilitarios/IDT.log
+wget https://github.com/lacasitamx/VPSMX/raw/master/ArchivosUtilitarios/tiemlim.log
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SR/SPR
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/code/SOPORTE
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Utilidad/rebootnb
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Utilidad/resetsshdrop
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Vercion
+wget https://www.dropbox.com/s/7todq5tpo5nslkm/trans
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Utilidad/Desbloqueo.sh
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Utilidad/monitor.sh
+wget https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Utilidad/estilos.css
