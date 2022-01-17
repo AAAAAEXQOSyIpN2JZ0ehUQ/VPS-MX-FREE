@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Versio
 
 ## :octocat: Credits
 
-1. [@E8th4ver - Developer of Adm-Manager](https://t.me/E8th4ver)
+1. [@E8th4ver - Autor Del Codigo Original](https://t.me/E8th4ver)
 2. [@Kalix1 - Developer of VPS-MX](https://github.com/VPS-MX)
 3. [@Rufu99 - Contributor](https://github.com/rudi9999)
 4. [Casita Dev Team - Contributor](https://github.com/lacasitamx)
