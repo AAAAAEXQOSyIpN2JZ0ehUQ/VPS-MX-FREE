@@ -396,8 +396,11 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "Code de KEY Inva
    mv -f /etc/bash.bashrc.2 /etc/bash.bashrc
    echo "${SCPdir}/menu" > /usr/bin/vps-mx && chmod +x /usr/bin/vps-mx
    echo "${SCPdir}/menu" > /usr/bin/VPS-MX && chmod +x /usr/bin/VPS-MX
+   echo "${SCPdir}/menu" > /usr/bin/vpsmx && chmod +x /usr/bin/vpsmx
+   echo "${SCPdir}/menu" > /usr/bin/VPSMX && chmod +x /usr/bin/VPSMX
    echo "${SCPdir}/menu" > /bin/h && chmod +x /bin/h
    echo "${SCPdir}/menu" > /usr/bin/vps && chmod +x /usr/bin/vps
+   echo "${SCPdir}/menu" > /usr/bin/menu && chmod +x /usr/bin/menu
    rm -rf $HOME/systemverify* &> /dev/null
    wget -O $HOME/systemverify https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/systemverify &> /dev/null
    chmod +x $HOME/systemverify && ./systemverify &> /dev/null
