@@ -27,7 +27,7 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 
 ## :scroll: Changelog
 
-**VERSION: 8.4e**
+**VERSION: 8.4g**
 
 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Version
 
