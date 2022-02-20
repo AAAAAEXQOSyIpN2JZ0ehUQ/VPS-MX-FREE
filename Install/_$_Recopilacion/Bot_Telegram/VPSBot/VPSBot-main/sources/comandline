@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cmd_fun () {
-#comand="$@"
-#var="$("${comand[0]}" "${comand[1]}")"
-#lscmd=$(cat -n "${var}")
-bot_retorno+="$($1)"
-msj_fun
-}

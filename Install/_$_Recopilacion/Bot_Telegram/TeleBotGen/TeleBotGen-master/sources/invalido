@@ -1,7 +1,0 @@
-#!/bin/bash
-
-invalido_src () {
-bot_retorno="$LINE\n"
-         bot_retorno+="Comando invalido!\n"
-         bot_retorno+="$LINE\n"
-}
