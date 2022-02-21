@@ -1,0 +1,31 @@
+#!/bin/bash
+
+donar () {
+
+			 bot_retorno="$LINE\n"
+			 bot_retorno+="El proyecto BotGen requiere\nde fondos para poder continuar\n"
+			 bot_retorno+="Usted puede realizar una donacion\n"
+			 bot_retorno+="Paypal\n"
+			 bot_retorno+="MercadoPago Arg\n"
+			 bot_retorno+="o bien hacer uso del acortador\nreiteradas veces\n"
+			 bot_retorno+="$LINE\n"
+			 bot_retorno+="desde ya muchas gracias\n"
+			 bot_retorno+="$LINE\n"
+			 msj_donar
+}
+
+donar_OnOff () {
+if [[ ! -e "/etc/donar_active.txt" ]]; then
+	echo "on" > /etc/donar_active.txt
+	local bot_retorno="$LINE\n"
+          bot_retorno+="Donar: <u>ON</u> ✅\n"
+	  bot_retorno+="$LINE\n"
+	msj_fun
+else
+	rm -rf /etc/donar_active.txt
+	local bot_retorno="$LINE\n"
+          bot_retorno+="Donar: <u>OFF</u> ❌\n"
+	  bot_retorno+="$LINE\n"
+	msj_fun
+fi
+}

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+start_gen () {
+unset PIDGEN
+PIDGEN=$(ps aux|grep -v grep|grep "http-server.sh")
+if [[ ! $PIDGEN ]]; then
+screen -dmS generador /bin/http-server.sh -start
+local bot_retorno="$LINE\n"
+          bot_retorno+="Generador: <u>Online</u> ✅\n"
+	  bot_retorno+="$LINE\n"
+msj_fun
+else
+killall http-server.sh
+local bot_retorno="$LINE\n"
+          bot_retorno+="Generador: <u>Offline</u> ❌\n"
+	  bot_retorno+="$LINE\n"
+msj_fun
+fi
+}

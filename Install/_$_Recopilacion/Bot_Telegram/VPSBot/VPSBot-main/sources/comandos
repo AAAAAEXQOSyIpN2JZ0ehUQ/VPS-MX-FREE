@@ -1,0 +1,24 @@
+#!/bin/bash
+
+comand () {
+	    if [[ $(echo $permited|grep "${chatuser}") = "" ]]; then
+		 case ${comando[0]} in
+			 /[Ii]d|/[Ii]D)myid_src &;;
+			 /[Mm]enu|[Mm]enu|/[Ss]tart|[Ss]tart|[Cc]omensar|/[Cc]omensar)menu_src &;;
+			 /[Aa]yuda|[Aa]yuda|[Hh]elp|/[Hh]elp)ayuda_src &;;
+			 *)invalido &;;
+		 esac
+	    else
+		 case ${comando[0]} in
+			 /[Mm]enu|[Mm]enu|/[Ss]tart|[Ss]tart|[Cc]omensar|/[Cc]omensar)menu_src &;;
+			 /[Aa]yuda|[Aa]yuda|[Hh]elp|/[Hh]elp)ayuda_src &;;
+			 /[Ii]d|/[Ii]D)myid_src &;;
+			 /[Ii]nfosys)infosys_src &;;
+			 /[Rr]eboot)reboot_src &;;
+			 /[Cc]ache)cache_src &;;
+			 /[Uu]pdate|/[Aa]ctualizar)update &;;
+			 /[Cc]md)cmd_fun "${comand[1]}" "${comando[2]}" &;;
+			 /*)invalido_fun &;;
+		 esac
+	    fi
+}

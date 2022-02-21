@@ -1,0 +1,29 @@
+#!/bin/bash
+
+ayuda_src () {
+bot_retorno="===========AYUDA===========\n"
+	 if [[ $(echo $permited|grep "${chatuser}") = "" ]]; then
+		 bot_retorno+="/ID\n muestra sus ID de telegram\n para tener acceso al /keygen\n deve enviar su ID al admin\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/menu\n muestra el menu\n de comandos disponibles\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/ayuda\n muestra este menu de ayuda\n"
+		 bot_retorno+="$LINE\n"
+	 else
+		 bot_retorno+="/infosys\n muestra informacion del sistema\n Ram, Cpu, Fecha y Hora\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/ID\n muestra sus ID de telegram\n para tener acceso al /keygen\n deve enviar su ID al admin\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/menu\n muestra el menu\n de comandos disponibles\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/ayuda\n muestra este menu de ayuda\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/cache\n limpia el cache contenido en la ram\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/update\n actualiza el VPSBot\n"
+		 bot_retorno+="$LINE\n"
+		 bot_retorno+="/reboot\n Reinicia el servidor vps\n"
+		 bot_retorno+="$LINE\n"
+	 fi
+msj_fun
+}

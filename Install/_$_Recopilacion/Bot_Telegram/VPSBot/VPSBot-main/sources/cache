@@ -1,0 +1,20 @@
+#!/bin/bash
+
+cache_src () {
+echo 2 > /proc/sys/vm/drop_caches
+sleep 2
+#MEMORIA RAM
+unset ram1
+unset ram2
+unset ram3
+ram1=$(free -h | grep -i mem | awk {'print $2'})
+ram2=$(free -h | grep -i mem | awk {'print $4'})
+ram3=$(free -h | grep -i mem | awk {'print $3'})
+	  bot_retorno="=============\n"
+	  bot_retorno+="Ram: $ram1\n"
+	  bot_retorno+="USADA: $ram3\n"
+	  bot_retorno+="LIBRE: $ram2\n"
+	  bot_retorno+="USO DE RAM: $_usor\n"
+	  bot_retorno+="=============\n"
+msj_fun
+}
