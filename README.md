@@ -1,5 +1,5 @@
 ﻿```
-* UPDATE 21/06/2021 - Proyecto Proyecto Descontinuado
+* UPDATE 21/06/2021 - Proyecto Descontinuado
 * VPS-MX Manager (Final Version VPS-MX Manager)
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
@@ -45,7 +45,7 @@ DATA: Las dependencias faltantes se instalarán automáticamente
 
 ## :octocat: Credits
 1. [@E8th4ver - Autor Del Codigo Original](https://t.me/E8th4ver)
-2. [@Kalix1 - Developer of MOD VPS-MX Manager](https://github.com/VPS-MX)
+2. [@Kalix1 - Developer of VPS-MX Manager](https://github.com/VPS-MX)
 3. [Casita Dev Team - Contributor](https://github.com/lacasitamx)
 4. [@Rufu99 - Contributor](https://github.com/rudi9999)
 5. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
