@@ -41,7 +41,7 @@ DATA: Las dependencias faltantes se instalarán automáticamente
 * Recomendamos 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formateada
 * Idioma principal del Scripts es el español (Recomendado)
-* Importante esta version es de Casita Dev Team su uso es totalmente gratuito
+* Importante esta version es de [Casita Dev Team](https://github.com/lacasitamx) su uso es totalmente gratuito
 
 ## :octocat: Credits
 1. [@E8th4ver - Autor Del Codigo Original](https://t.me/E8th4ver)
