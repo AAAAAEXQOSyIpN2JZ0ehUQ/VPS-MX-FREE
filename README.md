@@ -41,14 +41,14 @@ DATA: Las dependencias faltantes se instalarán automáticamente
 * Recomendamos 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formateada
 * Idioma principal del Scripts es el español (Recomendado)
-* Importante esta version es de [Casita Dev Team](https://github.com/lacasitamx) su uso es totalmente gratuito
+* Importante esta version es de [Casita Dev Team](https://github.com/lacasitamx) y [@Rufu99 Dev](https://github.com/rudi9999) su uso es totalmente gratuito
 
 ## :octocat: Credits
 1. [@E8th4ver - Autor Del Codigo Original](https://t.me/E8th4ver)
 2. [@Kalix1 - Developer of VPS-MX Manager](https://github.com/VPS-MX)
-3. [Casita Dev Team - Contributor](https://github.com/lacasitamx)
-4. [@Rufu99 - Contributor](https://github.com/rudi9999)
-5. [illuminati Dev Team - Contributor](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ) 
+3. [Casita Dev Team - Contributor](https://t.me/conectedmx_vip)
+4. [@Rufu99 Dev - Contributor](https://t.me/ADMRufu)
+5. [illuminati Dev Team - Contributor](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) 
 ```
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
 ```
