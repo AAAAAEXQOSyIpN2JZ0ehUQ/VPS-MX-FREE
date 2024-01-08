@@ -4,7 +4,7 @@
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
 
-# VPS-MX By Kalix1 (MOD NEW-ULTIMATE)
+# VPS-MX By Kalix1 (MOD NEW-ULTIMATE MANAGER)
 Es un script con un conjunto de características y herramientas adecuadas para 
 ofrecer extrema facilidad de manejo en servidores Linux con un enfoque en el uso de 
 VPN, tiene una interfaz agradable aportando información detallada sobre la máquina
@@ -27,20 +27,19 @@ DATA: Las dependencias faltantes se instalarán automáticamente
 * [Details](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Version)
 
 ## :book: How it works
-* SSH conexión
-* Conexiones Dropbear, SSLTunnel4, OpenVPN, etc
-* Elimina y crea usuarios
-* Monitor de conexión online
-* Detalles de tu sistema y usuarios
+* Conexiones SSH
+* Conexiones Dropbear, SSLTunnel4, OpenVPN, etc.
+* Creación y eliminación de usuarios
+* Monitoreo de conexiones en línea
+* Detalles del sistema y los usuarios
 * Herramientas de escaneo y búsqueda
-* Optimiza y limpia el sistema y más
+* Optimización y limpieza del sistema
 
 ## :heavy_exclamation_mark: Requirements
-* Un sistema operativo basado en Linux (Ubuntu)
-* Ubuntu 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64
-* Recomendamos 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64
-* Se recomienda usar una distro nueva o formateada
-* Idioma principal del Scripts es el español (Recomendado)
+* Sistema operativo basado en Linux (Ubuntu o Debian)
+* Versiones recomendadas: Ubuntu 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64
+* Se sugiere utilizar una distribución reciente o recién formateada
+* El idioma predeterminado es el español
 * Importante esta version es de [Casita Dev Team](https://github.com/lacasitamx) y [@Rufu99 Dev](https://github.com/rudi9999) su uso es totalmente gratuito
 
 ## :octocat: Credits
