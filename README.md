@@ -40,7 +40,7 @@ DATA: Las dependencias faltantes se instalarán automáticamente
 * Versiones recomendadas: Ubuntu 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64
 * Se sugiere utilizar una distribución reciente o recién formateada
 * El idioma predeterminado es el español
-* Importante esta version es totalmente gratuita y fue desarrollada por Casita Dev Team con la colaboracion de Rufu99.
+* Importante esta version es totalmente gratuita y fue desarrollada por Casita Dev Team con la colaboracion de Rufu99
 * [Casita Dev Team - GitHub](https://github.com/lacasitamx) - [Casita Dev Team - Telegram](https://t.me/conectedmx_vip)
 * [@Rufu99 Dev - GitHub](https://github.com/rudi9999) - [@Rufu99 Dev - Telegram](https://t.me/ADMRufu)
 
