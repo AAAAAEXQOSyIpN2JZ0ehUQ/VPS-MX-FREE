@@ -2,7 +2,7 @@
 *VPS-MX Manager (Final Version VPS-MX FREE)*
 :octocat:
 
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/blob/master/Imagenes/ADM_ULTIMATE_NEW_FREE.png)
+![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
 
 # VPS-MX  - Mod By Kalix1
 ## :information_source: Descripción
