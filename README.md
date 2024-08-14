@@ -1,5 +1,5 @@
 ﻿*UPDATE 21/06/2021 - Proyecto Descontinuado*  
-*VPS-MX Manager (Final Version VPS-MX)*
+*VPS-MX Manager (Final Version VPS-MX FREE)*
 :octocat:
 
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/blob/master/Imagenes/ADM_ULTIMATE_NEW_FREE.png)
