@@ -11,8 +11,8 @@ proporcionar una extrema facilidad de uso en servidores Linux con un enfoque en 
 VPN. Viene con una interfaz amigable que proporciona información detallada sobre el servidor y 
 sus usuarios.
 
-Importante esta version es totalmente gratuita y fue desarrollada por [Casita Team - Telegram](https://t.me/conectedmx_vip) 
-con la colaboracion de [Rufu99 - Telegram](https://t.me/ADMRufu). 
+Importante esta version es totalmente gratuita y fue desarrollada por [Casita Team](https://t.me/conectedmx_vip) 
+con la colaboracion de [Rufu99](https://t.me/ADMRufu). 
 
 ## :computer: Instalación
 ```bash
