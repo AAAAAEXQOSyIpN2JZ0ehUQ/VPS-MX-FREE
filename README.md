@@ -1,55 +1,94 @@
-﻿```
-* UPDATE 21/06/2021 - Proyecto Descontinuado
-* VPS-MX Manager (Final Version VPS-MX Manager)
-```
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
+﻿*UPDATE 21/06/2021 - Proyecto Descontinuado*  
+*VPS-MX Manager (Final Version VPS-MX)*
+:octocat:
 
-# VPS-MX By Kalix1 (MOD NEW-ULTIMATE MANAGER)
-Es un script con un conjunto de características y herramientas adecuadas para 
-ofrecer extrema facilidad de manejo en servidores Linux con un enfoque en el uso de 
-VPN, tiene una interfaz agradable aportando información detallada sobre la máquina
-y los usuarios...
+![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/blob/master/Imagenes/ADM_ULTIMATE_NEW_FREE.png)
 
-## :book: Installation
+# VPS-MX  - Mod By Kalix1
+## :information_source: Descripción
+Es un script que ofrece un conjunto de características y herramientas diseñadas para 
+proporcionar una extrema facilidad de uso en servidores Linux con un enfoque en el uso de 
+VPN. Viene con una interfaz amigable que proporciona información detallada sobre el servidor y 
+sus usuarios.
+
+Importante esta version es totalmente gratuita y fue desarrollada por [Casita Dev Team - Telegram](https://t.me/conectedmx_vip) 
+con la colaboracion de [@Rufu99 Dev - Telegram](https://t.me/ADMRufu). 
+
+## :computer: Instalación
 ```bash
 apt-get update -y
+apt-get full-upgrade -y
+wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX
+chmod +x VPS-MX*
+./VPS-MX*
+```
+
+## :computer: Instalación en una Línea
+```bash
+apt-get update -y; apt-get full-upgrade -y; wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX && chmod +x VPS-MX* && ./VPS-MX*
+```
+
+:memo: Las dependencias faltantes se instalarán automáticamente durante el proceso.
+
+## :rocket: Modo de Uso
+
+Ejecute el script simplemente escribiendo `vps-mx` o `vps` en tu terminal y presionando Enter.
+
+```bash
+vps-mx
 ```
 ```bash
-apt-get upgrade -y
+vps
 ```
-```bash
-wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX && chmod +x VPS-MX* && ./VPS-MX*
-```
-DATA: Las dependencias faltantes se instalarán automáticamente
 
-## :scroll: Changelog
-**VERSION: 8.4e**
-* [Details](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Version)
+## :bookmark_tabs: Notas
+VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 
-## :book: How it works
-* Conexiones SSH
-* Conexiones Dropbear, SSLTunnel4, OpenVPN, etc.
-* Creación y eliminación de usuarios
-* Monitoreo de conexiones en línea
-* Detalles del sistema y los usuarios
-* Herramientas de escaneo y búsqueda
-* Optimización y limpieza del sistema
+- Conexiones SSH: Configura y administra conexiones SSH.
+- Conexiones VPN: Administra conexiones Dropbear, SSLTunnel4, OpenVPN, entre otras.
+- Gestión de Usuarios: Crea y elimina usuarios.
+- Monitoreo de Conexiones: Observa el estado y la actividad de las conexiones en línea.
+- Detalles del Sistema y Usuarios: Proporciona información detallada sobre el sistema y los usuarios.
+- Herramientas de Escaneo y Búsqueda: Accede a herramientas de análisis de seguridad.
+- Optimización del Sistema: Realiza tareas de optimización y limpieza del sistema.
 
-## :heavy_exclamation_mark: Requirements
-* Sistema operativo basado en Linux (Ubuntu o Debian)
-* Versiones recomendadas: Ubuntu 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64
-* Se sugiere utilizar una distribución reciente o recién formateada
-* El idioma predeterminado es el español
-* Importante esta version es totalmente gratuita y fue desarrollada por Casita Dev Team con la colaboracion de Rufu99
-* [Casita Dev Team - GitHub](https://github.com/lacasitamx) - [Casita Dev Team - Telegram](https://t.me/conectedmx_vip)
-* [@Rufu99 Dev - GitHub](https://github.com/rudi9999) - [@Rufu99 Dev - Telegram](https://t.me/ADMRufu)
+## :star2: Características 
 
-## :octocat: Credits
-1. [@E8th4ver - Autor Del Codigo Original](https://t.me/E8th4ver)
-2. [@Kalix1 - Developer of VPS-MX Manager](https://github.com/VPS-MX)
-3. [Casita Dev Team - Contributor](https://t.me/conectedmx_vip)
-4. [@Rufu99 Dev - Contributor](https://t.me/ADMRufu)
-5. [illuminati Dev Team - Contributor](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) 
-```
+- Automatización: Simplifica la configuración y administración de servidores.
+- Eficiencia: Ahorra tiempo con una interfaz intuitiva y comandos simplificados.
+- Organización: Facilita la gestión estructurada del servidor y sus servicios.
+
+## :hammer_and_wrench: Requisitos 
+
+- Sistema Operativo: Linux (Ubuntu o Debian)
+- Versiones Recomendadas: 16.04 Server x86_64 / Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64
+- Distribución: Se sugiere utilizar una distribución reciente o recién formateada.
+- Idioma Predeterminado: español
+
+## :file_folder: Proyectos útiles 
+
+- Generador de Key ADM-Ultimate New: [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/tree/master/Install/Generador)
+
+## :inbox_tray: Descarga del Código Fuente
+
+- Código Fuente: [Descargar](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/Install/Source-Code-ADM-Manager_Ultimate.zip)
+
+## :open_file_folder: Estructura del Repositorio
+
+| Icono            | Nombre         | Descripción                               |
+|------------------|----------------|-------------------------------------------|
+| :file_folder:    | Imagenes       | Carpeta para imágenes                     |
+| :file_folder:    | Install        | Carpeta para scripts de instalación       |
+| :file_folder:    | Modulos        | Carpeta para módulos adicionales          |
+| :file_folder:    | _$_Version     | Carpeta para archivos de versión          |
+| :page_facing_up: | .gitattributes | Archivo para configuración de Git         |
+| :book:           | README.md      | Archivo de documentación principal        |
+| :package:        | VPS-MX         | Instalador en Bash                        |
+| :page_facing_up: | Version        | Archivo de versión del proyecto           |
+
+## :email: Contacto 
+* :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM-Ultimate New
+* :busts_in_silhouette: **illuminati Dev Team**: [Grupo Oficial en Telegram](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Actualización de versión
+* :busts_in_silhouette: **Jony Rivera**: [Telegram](https://t.me/Jony_Rivera) - Colaborador
+
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
-```
