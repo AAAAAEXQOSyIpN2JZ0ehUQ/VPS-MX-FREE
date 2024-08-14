@@ -12,7 +12,7 @@ VPN. Viene con una interfaz amigable que proporciona información detallada sobr
 sus usuarios.
 
 Importante esta version es totalmente gratuita y fue desarrollada por [Casita Team - Telegram](https://t.me/conectedmx_vip) 
-con la colaboracion de [@Rufu99 - Telegram](https://t.me/ADMRufu). 
+con la colaboracion de [Rufu99 - Telegram](https://t.me/ADMRufu). 
 
 ## :computer: Instalación
 ```bash
@@ -80,9 +80,9 @@ VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 
 ## :email: Contacto 
 * :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM-Ultimate New (Autor Del Codigo Original)
-* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/E8th4ver) - Desarrollador  VPS-MX Mod de ADM-Ultimate New
+* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador  VPS-MX Mod de ADM-Ultimate New
 * :busts_in_silhouette: **Casita Team**: [Telegram](https://t.me/conectedmx_vip), [GitHub](https://github.com/lacasitamx) - Colaborador
-* :busts_in_silhouette: **@Rufu99**: [Telegram](https://t.me/ADMRufu), [GitHub](https://github.com/rudi9999) - Colaborador
+* :busts_in_silhouette: **Rufu99**: [Telegram](https://t.me/ADMRufu), [GitHub](https://github.com/rudi9999) - Colaborador
 * :busts_in_silhouette: **Jony Rivera**: [Telegram](https://t.me/Jony_Rivera) - Colaborador
 
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
