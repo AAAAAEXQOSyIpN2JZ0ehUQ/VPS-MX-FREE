@@ -65,14 +65,6 @@ VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 - Distribución: Se sugiere utilizar una distribución reciente o recién formateada.
 - Idioma Predeterminado: español
 
-## :file_folder: Proyectos útiles 
-
-- Generador de Key ADM-Ultimate New: [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/tree/master/Install/Generador)
-
-## :inbox_tray: Descarga del Código Fuente
-
-- Código Fuente: [Descargar](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/Install/Source-Code-ADM-Manager_Ultimate.zip)
-
 ## :open_file_folder: Estructura del Repositorio
 
 | Icono            | Nombre         | Descripción                               |
@@ -87,8 +79,18 @@ VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 | :page_facing_up: | Version        | Archivo de versión del proyecto           |
 
 ## :email: Contacto 
+* :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM-Ultimate New (Autor Del Codigo Original)
+
+* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/E8th4ver) - Desarrollador  VPS-MX Mod de ADM-Ultimate New
+
+* :busts_in_silhouette: **Casita Dev Team**: [Telegram](https://t.me/conectedmx_vip), [Casita Dev Team - GitHub](https://github.com/lacasitamx) - Colaborador
+
+* :busts_in_silhouette: **@Rufu99 Devr**: [Telegram](https://t.me/ADMRufu), [@Rufu99 Dev - GitHub](https://github.com/rudi9999) - Colaborador
+
+
+
 * :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM-Ultimate New
-* :busts_in_silhouette: **illuminati Dev Team**: [Grupo Oficial en Telegram](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Actualización de versión
+
 * :busts_in_silhouette: **Jony Rivera**: [Telegram](https://t.me/Jony_Rivera) - Colaborador
 
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
