@@ -2,9 +2,18 @@
 *VPS-MX Manager (Final Version VPS-MX FREE)*
 :octocat:
 
+⚠️ Estado del Proyecto: Descontinuado ⚠️
+
+Este proyecto ha sido descontinuado y ya no recibirá actualizaciones o soporte adicional. Aunque puedes seguir utilizando el código disponible, recomendamos explorar otras alternativas activas y actualizadas para manejar tus servidores o VPS.
+
+* VPS-MX Manager (Final Versión 8.4e) :octocat:
+* Fecha de Última Actualización: 21/06/2021
+
+💡 Nota: Si tienes alguna pregunta o necesitas ayuda, te sugerimos revisar los foros comunitarios o consultar otros repositorios en GitHub que ofrezcan herramientas similares.
+
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
 
-# VPS-MX  - Mod By Kalix1
+# VPS-MX Manager
 ## :information_source: Descripción
 Es un script que ofrece un conjunto de características y herramientas diseñadas para 
 proporcionar una extrema facilidad de uso en servidores Linux con un enfoque en el uso de 
@@ -80,7 +89,7 @@ VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 
 ## :email: Contacto 
 * :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM-Ultimate New (Autor Del Codigo Original)
-* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador  VPS-MX Mod de ADM-Ultimate New
+* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador VPS-MX Manager (Mod de ADM-Ultimate New)
 * :busts_in_silhouette: **Casita Team**: [Telegram](https://t.me/conectedmx_vip), [GitHub](https://github.com/lacasitamx) - Colaborador
 * :busts_in_silhouette: **Rufu99**: [Telegram](https://t.me/ADMRufu), [GitHub](https://github.com/rudi9999) - Colaborador
 * :busts_in_silhouette: **Jony Rivera**: [Telegram](https://t.me/Jony_Rivera) - Colaborador
