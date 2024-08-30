@@ -20,10 +20,9 @@ proporcionar una extrema facilidad de uso en servidores Linux con un enfoque en 
 VPN. Viene con una interfaz amigable que proporciona información detallada sobre el servidor y 
 sus usuarios.
 
-Importante esta version es totalmente gratuita y fue desarrollada por `Casita Team` con la colaboracion de `Rufu99`. 
+💡 Importante: esta version es totalmente gratuita y fue desarrollada por `Casita Team` con la colaboracion de `Rufu99`. 
 
-
-- La Casita [Team]
+*La Casita [Team]*
 
 Grupo: https://t.me/conectedmx_vip
 
@@ -31,7 +30,7 @@ Canal: https://t.me/LaCasitaMx
 
 GitHub: https://github.com/lacasitamx
 
-- ADM-Rufu [Dev] 
+*ADM-Rufu [Dev]*
 
 Grupo: https://t.me/ADMRufu
 
