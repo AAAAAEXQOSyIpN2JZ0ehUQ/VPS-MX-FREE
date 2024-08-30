@@ -24,9 +24,9 @@ sus usuarios.
 
 *La Casita [Team]*
 
-Grupo: https://t.me/conectedmx_vip
-
 Canal: https://t.me/LaCasitaMx
+
+Grupo: https://t.me/conectedmx_vip
 
 GitHub: https://github.com/lacasitamx
 
