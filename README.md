@@ -30,7 +30,7 @@ Grupo: https://t.me/conectedmx_vip
 
 GitHub: https://github.com/lacasitamx
 
-*ADM-Rufu [Dev]*
+*Rufu99 [Dev]*
 
 Grupo: https://t.me/ADMRufu
 
