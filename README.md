@@ -105,6 +105,5 @@ VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 * :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador VPS-MX Manager (Mod de ADM-Ultimate New)
 * :busts_in_silhouette: **Casita Team**: [Canal](https://t.me/LaCasitaMx), [Grupo](https://t.me/conectedmx_vip) y [GitHub](https://github.com/lacasitamx) - Colaborador
 * :busts_in_silhouette: **Rufu99**: [Grupo](https://t.me/ADMRufu), [GitHub](https://github.com/rudi9999) - Colaborador
-* :busts_in_silhouette: **Jony Rivera**: [Grupo](https://t.me/Jony_Rivera) - Colaborador
-
+* :busts_in_silhouette: **illuminati Dev Team**: [Grupo](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Colaborador
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
