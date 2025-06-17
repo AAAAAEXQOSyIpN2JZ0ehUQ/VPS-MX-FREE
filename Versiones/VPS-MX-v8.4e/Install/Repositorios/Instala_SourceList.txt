@@ -1,7 +1,0 @@
-Ubuntu 16 
-
-wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/Repositorios/16.04/sources.list
-
-Ubuntu 18
-
-wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/Repositorios/18.04/sources.list
