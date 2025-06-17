@@ -9,7 +9,7 @@ Este proyecto ha sido descontinuado y ya no recibirá actualizaciones o soporte 
 
 Si tienes alguna pregunta o necesitas ayuda, te sugerimos revisar los foros de la comunidad o explorar otros repositorios en GitHub con herramientas similares. También puedes abrir un *issue* o enviar un *pull request* si deseas colaborar directamente.
 
-* :inbox_tray: Código Fuente: [Descargar](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Source-Code-SSHPlus.zip)
+* :inbox_tray: Código Fuente: [Descargar](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/tree/main/Recopilacion)
 
 ----
 
@@ -25,18 +25,18 @@ sus usuarios.
 
 💡 Importante: esta version es totalmente gratuita y fue desarrollada por `Casita Team` con la colaboracion de `Rufu99`. 
 
-+-------------------+---------------------------+-------------------------------------------+
+|-------------------|---------------------------|-------------------------------------------|
 | Nombre            | Tipo                      | Enlace                                    |
-+-------------------+---------------------------+-------------------------------------------+
+|-------------------|---------------------------|-------------------------------------------|
 | La Casita         | Team                      |                                           |
 |                   | Canal                     | https://t.me/LaCasitaMx                   |
 |                   | Grupo                     | https://t.me/conectedmx_vip               |
 |                   | GitHub                    | https://github.com/lacasitamx             |
-+-------------------+---------------------------+-------------------------------------------+
+|-------------------|---------------------------|-------------------------------------------|
 | Rufu99            | Dev                       |                                           |
 |                   | Grupo                     | https://t.me/ADMRufu                      |
 |                   | GitHub                    | https://github.com/rudi9999               |
-+-------------------+---------------------------+-------------------------------------------+
+|-------------------|---------------------------|-------------------------------------------|
 
 ## :computer: Instalación
 ```bash
@@ -102,6 +102,7 @@ VPS-MX Manager ofrece las siguientes características:
 | Icono            | Nombre         | Descripción                               |
 |------------------|----------------|-------------------------------------------|
 | :file_folder:    | Imagenes       | Carpeta para imágenes                     |
+| :file_folder:    | Install        | Carpeta para scripts de instalación       |
 | :file_folder:    | Modulos        | Carpeta para módulos adicionales          |
 | :file_folder:    | Recopilacion   | Carpeta de recopilacion para proyecto     |
 | :file_folder:    | Versiones      | Carpeta para proyectos                    |
