@@ -31,7 +31,6 @@ sus usuarios.
 |                   | Canal                     | https://t.me/LaCasitaMx                   |
 |                   | Grupo                     | https://t.me/conectedmx_vip               |
 |                   | GitHub                    | https://github.com/lacasitamx             |
-|-------------------|---------------------------|-------------------------------------------|
 | Rufu99            | Dev                       |                                           |
 |                   | Grupo                     | https://t.me/ADMRufu                      |
 |                   | GitHub                    | https://github.com/rudi9999               |
