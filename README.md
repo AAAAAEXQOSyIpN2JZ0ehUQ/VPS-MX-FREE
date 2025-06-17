@@ -25,7 +25,6 @@ sus usuarios.
 
 💡 Importante: esta version es totalmente gratuita y fue desarrollada por `Casita Team` con la colaboracion de `Rufu99`. 
 
-|-------------------|---------------------------|-------------------------------------------|
 | Nombre            | Tipo                      | Enlace                                    |
 |-------------------|---------------------------|-------------------------------------------|
 | La Casita         | Team                      |                                           |
