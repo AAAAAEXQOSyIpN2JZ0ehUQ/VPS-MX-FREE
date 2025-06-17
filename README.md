@@ -31,11 +31,12 @@ sus usuarios.
 |                   | Canal                     | https://t.me/LaCasitaMx                   |
 |                   | Grupo                     | https://t.me/conectedmx_vip               |
 |                   | GitHub                    | https://github.com/lacasitamx             |
+
+| Nombre            | Tipo                      | Enlace                                    |
 |-------------------|---------------------------|-------------------------------------------|
 | Rufu99            | Dev                       |                                           |
 |                   | Grupo                     | https://t.me/ADMRufu                      |
 |                   | GitHub                    | https://github.com/rudi9999               |
-|-------------------|---------------------------|-------------------------------------------|
 
 ## :computer: Instalación
 ```bash
