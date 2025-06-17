@@ -111,8 +111,8 @@ VPS-MX Manager ofrece las siguientes características:
 ## :email: Contacto 
 * :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM Manager Ultimate 
 * :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador  VPS-MX Manager
-* :busts_in_silhouette: **@Casita Team**: [Telegram](#) - Actualización de Repositorio
-* :busts_in_silhouette: **@Rufu99**: [Telegram](#) - Actualización de Repositorio
+* :busts_in_silhouette: **@Casita Team**: [Telegram](https://t.me/conectedmx_vip) - Actualización de Repositorio
+* :busts_in_silhouette: **@Rufu99**: [Telegram](https://t.me/ADMRufu) - Actualización de Repositorio
 * :busts_in_silhouette: **illuminati Dev Team**: [Telegram](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Actualización de Repositorio
 
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ ☆
