@@ -88,25 +88,33 @@ VPS-MX Manager ofrece las siguientes características:
 - Distribución: Se sugiere utilizar una distribución reciente o recién formateada.
 - Idioma Predeterminado: español
 
+## :file_folder: Proyectos útiles 
+
+**Principal**
+
+**Extras**
+
+- Actualización de Repositorios APT para Ubuntu: [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/tree/main/Install/Repositorios)
+
+
 ## :open_file_folder: Estructura del Repositorio
 
 | Icono            | Nombre         | Descripción                               |
 |------------------|----------------|-------------------------------------------|
 | :file_folder:    | Imagenes       | Carpeta para imágenes                     |
-| :file_folder:    | Install        | Carpeta para scripts de instalación       |
 | :file_folder:    | Modulos        | Carpeta para módulos adicionales          |
-| :file_folder:    | Versiones     | Carpeta para archivos de versión          |
+| :file_folder:    | Recopilacion   | Carpeta de recopilacion para proyecto     |
+| :file_folder:    | Versiones      | Carpeta para proyectos                    |
 | :page_facing_up: | .gitattributes | Archivo para configuración de Git         |
 | :book:           | README.md      | Archivo de documentación principal        |
 | :package:        | VPS-MX         | Instalador en Bash                        |
-| :page_facing_up: | Version        | Archivo de versión del proyecto           |
+| :page_facing_up: | credits        | Archivo de creditos del proyecto          |
 
 ## :email: Contacto 
-* :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM-Ultimate New (Autor Del Codigo Original)
-* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador VPS-MX Manager (Mod de ADM-Ultimate New)
-* :busts_in_silhouette: **Casita Team**: [Canal](https://t.me/LaCasitaMx), [Grupo](https://t.me/conectedmx_vip) y [GitHub](https://github.com/lacasitamx) - Colaborador
-* :busts_in_silhouette: **Rufu99**: [Grupo](https://t.me/ADMRufu), [GitHub](https://github.com/rudi9999) - Colaborador
-* :busts_in_silhouette: **illuminati Dev Team**: [Grupo](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Colaborador
+* :busts_in_silhouette: **@E8th4ver**: [Telegram](https://t.me/E8th4ver) - Desarrollador  ADM Manager Ultimate 
+* :busts_in_silhouette: **@Kalix1**: [Telegram](https://t.me/Kalix1) - Desarrollador  VPS-MX Manager
+* :busts_in_silhouette: **@Casita Team**: [Telegram](#) - Actualización de Repositorio
+* :busts_in_silhouette: **@Rufu99**: [Telegram](#) - Actualización de Repositorio
+* :busts_in_silhouette: **illuminati Dev Team**: [Telegram](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Actualización de Repositorio
 
-☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
-
+☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ ☆
