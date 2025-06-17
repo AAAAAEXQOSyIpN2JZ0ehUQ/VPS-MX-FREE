@@ -1,19 +1,22 @@
-﻿*UPDATE 21/06/2021 - Proyecto Descontinuado*  
-*VPS-MX Manager (Final Version VPS-MX FREE)*
-:octocat:
+﻿----
 
 ⚠️ Estado del Proyecto: Descontinuado ⚠️
 
 Este proyecto ha sido descontinuado y ya no recibirá actualizaciones o soporte adicional. Aunque puedes seguir utilizando el código disponible, recomendamos explorar otras alternativas activas y actualizadas para manejar tus servidores o VPS.
 
-* VPS-MX Manager (Final Versión 8.4e) :octocat:
+* VPS-MX Manager (Final Versión xx) :octocat:
 * Fecha de Última Actualización: 21/06/2021
 
-💡 Nota: Si tienes alguna pregunta o necesitas ayuda, te sugerimos revisar los foros comunitarios o consultar otros repositorios en GitHub que ofrezcan herramientas similares.
+Si tienes alguna pregunta o necesitas ayuda, te sugerimos revisar los foros de la comunidad o explorar otros repositorios en GitHub con herramientas similares. También puedes abrir un *issue* o enviar un *pull request* si deseas colaborar directamente.
+
+* :inbox_tray: Código Fuente: [Descargar](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Source-Code-SSHPlus.zip)
+
+----
 
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/blob/main/Imagenes/VPS-MX-Free.png)
 
-# VPS-MX Manager
+# VPS-MX Manager :octocat:
+
 ## :information_source: Descripción
 Es un script que ofrece un conjunto de características y herramientas diseñadas para 
 proporcionar una extrema facilidad de uso en servidores Linux con un enfoque en el uso de 
@@ -22,32 +25,30 @@ sus usuarios.
 
 💡 Importante: esta version es totalmente gratuita y fue desarrollada por `Casita Team` con la colaboracion de `Rufu99`. 
 
-*La Casita [Team]*
-
-Canal: https://t.me/LaCasitaMx
-
-Grupo: https://t.me/conectedmx_vip
-
-GitHub: https://github.com/lacasitamx
-
-*Rufu99 [Dev]*
-
-Grupo: https://t.me/ADMRufu
-
-GitHub: https://github.com/rudi9999
++-------------------+---------------------------+-------------------------------------------+
+| Nombre            | Tipo                      | Enlace                                    |
++-------------------+---------------------------+-------------------------------------------+
+| La Casita         | Team                      |                                           |
+|                   | Canal                     | https://t.me/LaCasitaMx                   |
+|                   | Grupo                     | https://t.me/conectedmx_vip               |
+|                   | GitHub                    | https://github.com/lacasitamx             |
++-------------------+---------------------------+-------------------------------------------+
+| Rufu99            | Dev                       |                                           |
+|                   | Grupo                     | https://t.me/ADMRufu                      |
+|                   | GitHub                    | https://github.com/rudi9999               |
++-------------------+---------------------------+-------------------------------------------+
 
 ## :computer: Instalación
 ```bash
-apt-get update -y
-apt-get full-upgrade -y
-wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX
-chmod +x VPS-MX*
-./VPS-MX*
+apt-get update -y; 
+apt-get upgrade -y; 
+wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX; 
+chmod +x VPS-MX* && ./VPS-MX
 ```
 
-## :computer: Instalación en una Línea
+## :computer: Instalación en una Línea (Solo script)
 ```bash
-apt-get update -y; apt-get full-upgrade -y; wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX && chmod +x VPS-MX* && ./VPS-MX*
+wget --no-check-certificate https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX && chmod +x VPS-MX* && ./VPS-MX
 ```
 
 :memo: Las dependencias faltantes se instalarán automáticamente durante el proceso.
@@ -64,7 +65,7 @@ vps
 ```
 
 ## :bookmark_tabs: Notas
-VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
+VPS-MX Manager ofrece las siguientes características:
 
 - Conexiones SSH: Configura y administra conexiones SSH.
 - Conexiones VPN: Administra conexiones Dropbear, SSLTunnel4, OpenVPN, entre otras.
@@ -94,7 +95,7 @@ VPS-MX  - Mod By Kalix1 ofrece las siguientes características:
 | :file_folder:    | Imagenes       | Carpeta para imágenes                     |
 | :file_folder:    | Install        | Carpeta para scripts de instalación       |
 | :file_folder:    | Modulos        | Carpeta para módulos adicionales          |
-| :file_folder:    | _$_Version     | Carpeta para archivos de versión          |
+| :file_folder:    | Versiones     | Carpeta para archivos de versión          |
 | :page_facing_up: | .gitattributes | Archivo para configuración de Git         |
 | :book:           | README.md      | Archivo de documentación principal        |
 | :package:        | VPS-MX         | Instalador en Bash                        |
