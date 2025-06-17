@@ -9,7 +9,7 @@ Este proyecto ha sido descontinuado y ya no recibirá actualizaciones o soporte 
 
 Si tienes alguna pregunta o necesitas ayuda, te sugerimos revisar los foros de la comunidad o explorar otros repositorios en GitHub con herramientas similares. También puedes abrir un *issue* o enviar un *pull request* si deseas colaborar directamente.
 
-* :inbox_tray: Código Fuente: [Descargar](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/tree/main/Recopilacion)
+* :inbox_tray: Código Fuente: [Descargar](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/archive/refs/heads/main.zip)
 
 ----
 
